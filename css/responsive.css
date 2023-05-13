@@ -23,12 +23,34 @@
 }
 @media screen and (max-width: 992px) {
   nav {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
   }
   .nav-menu,
   .nav-links {
     display: none;
+  }
+  #logo {
+    margin-left: 20px;
+  }
+  .hamburger {
+    margin-right: 20px;
+  }
+  .nav-menu-mob {
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 0;
+    transition: 0.5s;
+    background-color: #fff;
+    z-index: 1;
   }
   .nav-menu-mob {
     position: absolute;
@@ -121,8 +143,10 @@
 
 @media screen and (max-width: 899px) {
   nav {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
   }
   .nav-menu,
   .nav-links {
@@ -140,6 +164,12 @@
     padding: 10px 0;
     transition: 0.5s;
     background-color: #fff;
+  }
+  #logo {
+    margin-left: 20px;
+  }
+  .hamburger {
+    margin-right: 20px;
   }
   .hamburger {
     display: flex;
@@ -307,15 +337,23 @@
 
 @media screen and (max-width: 460px) {
   nav {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  #logo {
+    margin-left: 20px;
+  }
+  .hamburger {
+    margin-right: 20px;
   }
   .nav-menu,
   .nav-links {
     display: none;
   }
   .nav-menu-mob {
-    position: absolute;
+    position: fixed;
     width: 100%;
     top: 50px;
     left: -100%;
@@ -326,6 +364,7 @@
     padding: 10px 0;
     transition: 0.5s;
     background-color: #fff;
+    z-index: 1;
   }
   .hamburger {
     display: flex;
@@ -344,7 +383,7 @@
   }
   .hero {
     flex-direction: column;
-    padding: 30px 15px 0 15px;
+    padding: 30px 20px 0 20px;
   }
   .hero-img {
     margin: auto;
@@ -381,8 +420,8 @@
     margin: auto;
   }
   .products {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 35px;
   }
   .product,
@@ -411,8 +450,8 @@
     font-size: 25px;
   }
   .melonBusiness {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .melonBusinessDetails {
     flex-direction: column;
@@ -435,7 +474,7 @@
     margin: 30px auto auto auto;
   }
   .workBenefitTitle {
-    padding: 0 15px;
+    padding: 0 20px;
   }
   .workImg {
     width: 100%;
@@ -454,8 +493,8 @@
     margin: auto 0 0 auto;
   }
   .benefits {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .benefitDetails {
     gap: 10px;
@@ -472,8 +511,8 @@
     width: 90%;
   }
   .faqs {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
   }
   .questions {
@@ -486,7 +525,7 @@
     font-size: 13px;
   }
   footer {
-    padding: 20px 15px;
+    padding: 20px 20px;
   }
   .footerSecOne {
     flex-direction: column;

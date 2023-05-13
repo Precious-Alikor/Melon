@@ -44,6 +44,7 @@ a {
 }
 nav {
   padding: 15px 50px;
+  background-color: #fff;
 }
 #logo img {
   width: 45px;
@@ -428,9 +429,6 @@ footer {
 }
 .contactDetails img {
   margin-right: 5px;
-}
-.contact h5{
-
 }
 .footerSecTwo {
   padding-top: 35px;

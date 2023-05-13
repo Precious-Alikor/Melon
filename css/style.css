@@ -376,7 +376,7 @@ h4 {
 }
 .menu.active .bar:nth-child(2) {
   transform: translateY(12px);
-  opacity: 1;
+  opacity: 0;
 }
 .answer {
   margin-bottom: 1.5rem;

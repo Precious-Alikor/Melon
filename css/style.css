@@ -430,6 +430,9 @@ footer {
 .contactDetails img {
   margin-right: 5px;
 }
+.contact h5{
+  color: #f1f1f2;
+}
 .footerSecTwo {
   padding-top: 35px;
 }

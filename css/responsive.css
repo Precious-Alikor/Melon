@@ -1,0 +1,514 @@
+@media screen and (max-width: 1200px) {
+  .product {
+    justify-content: space-between;
+  }
+  .productImg img {
+    width: 100%;
+    object-fit: contain;
+  }
+  #product .productImg img {
+    width: 80%;
+    margin: auto 0 0 auto;
+  }
+  footer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .footerDet {
+    width: 35%;
+  }
+  .footerItem {
+    width: 18%;
+  }
+}
+@media screen and (max-width: 992px) {
+  nav {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .nav-menu,
+  .nav-links {
+    display: none;
+  }
+  .nav-menu-mob {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 0;
+    transition: 0.5s;
+    background-color: #fff;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(4px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+  .nav-menu-mob.active {
+    left: 0;
+  }
+  .hero {
+    padding: 0 0 0 30px;
+  }
+  .hero-img {
+    width: 50%;
+  }
+  h1 {
+    font-size: 49px;
+  }
+  .product {
+    justify-content: space-between;
+  }
+  .productImg img {
+    width: 100%;
+    object-fit: contain;
+  }
+  #product .productImg img {
+    width: 90%;
+  }
+  .download {
+    width: 40%;
+  }
+  .melonBusiness {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .pos {
+    width: 70%;
+  }
+  .melonDetails {
+    width: 80%;
+  }
+  footer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .footerSecOne {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .footerSecTwo {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .policy {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerDet {
+    width: 100%;
+  }
+  .footerItem {
+    width: 100%;
+  }
+  .copyrightText {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  nav {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .nav-menu,
+  .nav-links {
+    display: none;
+  }
+  .nav-menu-mob {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 0;
+    transition: 0.5s;
+    background-color: #fff;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(4px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+  .nav-menu-mob.active {
+    left: 0;
+  }
+  .hero {
+    flex-direction: column;
+    padding: 30px 30px 0 30px;
+  }
+  .heroHeaderText {
+    text-align: center;
+  }
+  .hero-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+  }
+  .hero-img {
+    margin: auto;
+  }
+  .hero-img img {
+    width: 70%;
+    margin: auto;
+  }
+  .hero-img-large {
+    display: none;
+  }
+  .hero-img-mob {
+    display: flex;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .products {
+    padding-bottom: 35px;
+  }
+  .product,
+  #product {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .productImg,
+  #productImg {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .productDetails,
+  #productDetails {
+    width: 100%;
+    margin: auto;
+  }
+  .productImg img {
+    width: 65%;
+    margin: auto;
+  }
+  #product .productImg img {
+    width: 50%;
+    margin: auto;
+  }
+  .melonBusiness {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .melonBusinessDetails {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .pos {
+    width: 80%;
+  }
+  .work {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #fff;
+  }
+  .workDetails {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+  }
+  .workDetail {
+    width: 90%;
+    margin: 30px auto auto auto;
+  }
+  .workBenefitTitle {
+    padding: 0 15px;
+  }
+  .workImg {
+    width: 100%;
+    position: unset;
+  }
+  .workImg {
+    display: none;
+  }
+  .workImgMob {
+    display: block;
+    width: 100%;
+    background-color: #f8f8f8;
+  }
+  .workImgMob img {
+    width: 35%;
+    margin: auto 0 0 auto;
+  }
+  .melonDetails {
+    width: 95%;
+    margin: auto;
+  }
+  .download {
+    width: 50%;
+  }
+  .benefitImg {
+    width: 75%;
+  }
+  .faqs {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+  .questions {
+    width: 85%;
+  }
+  .faqs h3 {
+    font-size: 17px;
+  }
+  footer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .footerSecOne {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .footerSecTwo {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .footerDet {
+    width: 100%;
+  }
+  .footerItem {
+    width: 100%;
+  }
+  .policy {
+    flex-direction: column;
+    align-items: center;
+  }
+  .copyrightText {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  nav {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .nav-menu,
+  .nav-links {
+    display: none;
+  }
+  .nav-menu-mob {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 0;
+    transition: 0.5s;
+    background-color: #fff;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(4px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+  .nav-menu-mob.active {
+    left: 0;
+  }
+  .hero {
+    flex-direction: column;
+    padding: 30px 15px 0 15px;
+  }
+  .hero-img {
+    margin: auto;
+  }
+  .hero-img img {
+    width: 70%;
+    margin: auto;
+  }
+  .hero-links {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .hero-links .btn {
+    font-size: 12px;
+  }
+  .link img {
+    margin-left: 0;
+  }
+  .heroHeaderText {
+    text-align: center;
+  }
+  .hero-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .partners img {
+    margin: auto;
+  }
+  .products {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 35px;
+  }
+  .product,
+  #product {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .productImg,
+  #productImg {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .productDetails,
+  #productDetails {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .productImg img {
+    width: 85%;
+  }
+  #product .productImg img {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .melonBusiness {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .melonBusinessDetails {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .pos {
+    width: 90%;
+  }
+  .work {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #fff;
+  }
+  .workDetails {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+  }
+  .workDetail {
+    width: 90%;
+    margin: 30px auto auto auto;
+  }
+  .workBenefitTitle {
+    padding: 0 15px;
+  }
+  .workImg {
+    width: 100%;
+    position: unset;
+  }
+  .workImg {
+    display: none;
+  }
+  .workImgMob {
+    display: block;
+    background-color: #f8f8f8;
+    width: 100%;
+  }
+  .workImgMob img {
+    width: 60%;
+    margin: auto 0 0 auto;
+  }
+  .benefits {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .benefitDetails {
+    gap: 10px;
+    margin: 10px 0;
+  }
+  .detail {
+    gap: 5px;
+    margin: 5px 0;
+  }
+  .download {
+    width: 80%;
+  }
+  .benefitImg {
+    width: 90%;
+  }
+  .faqs {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+  }
+  .questions {
+    width: 95%;
+  }
+  .menu .bar {
+    left: 6px;
+  }
+  .faqs h3 {
+    font-size: 13px;
+  }
+  footer {
+    padding: 20px 15px;
+  }
+  .footerSecOne {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .footerSecTwo {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .policy {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerDet {
+    width: 100%;
+  }
+  .footerItem {
+    width: 100%;
+  }
+  .copyrightText {
+    flex-direction: column;
+    align-items: center;
+  }
+}

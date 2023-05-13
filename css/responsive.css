@@ -79,6 +79,8 @@
   }
   .nav-menu-mob.active {
     left: 0;
+    padding-top: 20px;
+    padding-bottom: 25px;
   }
   .hero {
     padding: 0 0 0 30px;
@@ -185,6 +187,8 @@
   }
   .nav-menu-mob.active {
     left: 0;
+    padding-top: 20px;
+    padding-bottom: 25px;
   }
   .hero {
     flex-direction: column;
@@ -380,6 +384,8 @@
   }
   .nav-menu-mob.active {
     left: 0;
+    padding-top: 20px;
+    padding-bottom: 25px;
   }
   .hero {
     flex-direction: column;
